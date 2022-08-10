@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="client-sample:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>client-sample</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="client-sample-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="client-sample:war exploded" />
+    </root>
+  </artifact>
+</component>
